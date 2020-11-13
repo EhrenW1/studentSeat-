@@ -58,10 +58,17 @@ class Main {
      
 // print statment that simply says the name of your stufdent is then the students name
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-for(int a = 0; a < 15; a++){
+for(int a = 14; a < 15; a++){
 System.out.println("and they should sit at seat number " + seatNumbers[a]);
+}
+int count = 13;
+while (count < 14)
+   {
+      System.out.println("The next student is below");
+      // 3. change the loop variable
+      count++;
+   }
+}
+}
+}
 
-} 
-}
-}
-}
