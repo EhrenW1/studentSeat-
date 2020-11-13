@@ -5,4 +5,4 @@ class Main {
    Scanner scan = new Scanner(System.in);
    //scanner
    System.out.println("What is the name of your first student?");
-   String name = scan.next():
+   String name = scan.next(): 
