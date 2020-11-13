@@ -55,13 +55,13 @@ class Main {
      for(int i = 0; i < 15; i++){ 
 // for loop that loops through and prints every element of the array
    System.out.println("The name of your student is " + studentNames[i]);
+     
 // print statment that simply says the name of your stufdent is then the students name
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-while (seatNumbers[] != seatNumbers[15]);
-System.out.print(seatNumbers);
-{
-seatNumbers[]++;
+for(int a = 0; a < 15; a++){
+System.out.println("and they should sit at seat number " + seatNumbers[a]);
+
+} 
 }
-     }
- }
+}
 }
