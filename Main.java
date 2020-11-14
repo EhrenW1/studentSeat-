@@ -50,27 +50,20 @@ public static void main(String[] args) {
  //15th kids name
   String[ ] studentNames = {name1, name2, name3, name4, name5, name6, name7, name8, name9, name10, name11, name12, name13, name14, name15};
 // array to hold the input from the user
-   for(int i = 0; i < 15; i++){
-// for loop that loops through and prints every element of the array
- //System.out.println("The name of your student is " + studentNames[i]);
- 
-// print statement that simply says the name of your student is then the students name
+
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-int b = 1;
-for(int a = 0; a < b; a++){
-b++;
+
+for(int a = 0; a < 1; a++){
+
 //System.out.println("and they should sit at seat number " + seatNumbers[a]);
-int sentence = 0; 
-while (sentence < 1)
- {
-    System.out.println("The name of your student is " + studentNames[i] + " and they should sit at seat number " + seatNumbers[a]);
-    // 3. change the loop variable
-    sentence++;
+int count = 0;
+while(count <= 14) {System.out.println(studentNames[count] + " Will sit in seat number" + seatNumbers[count]);
+count++;
+}
  }
 }
 }
-}
-}
+
 
  
 
